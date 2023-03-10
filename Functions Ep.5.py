@@ -1,4 +1,4 @@
-#21 This function calculates the distance between two points on an xy axis. The position of the points are asked as
+#1 This function calculates the distance between two points on an xy axis. The position of the points are asked as
 # input. The result is returned.
 import math
 
@@ -13,7 +13,7 @@ def distance_between_points():
 
 print(f"The distance between the points is: {distance_between_points()}")
 
-#22 - This function asks for a word and finds which letter is the most common one in it and returns that letter and
+#2 - This function asks for a word and finds which letter is the most common one in it and returns that letter and
 # the amount of times it is encountered.
 def most_frequent_letter(s):
     s = s.lower()
@@ -34,7 +34,7 @@ def most_frequent_letter(s):
     print(f"The most frequent letter in '{s}' is '{most_frequent}', which appears {most_frequent_count} times.")
 most_frequent_letter(input("Specify a word to count the most common letter in it:  "))
 
-#23 - This function finds the sum of a chosen amount of the first natural numbers and returns the result.
+#3 - This function finds the sum of a chosen amount of the first natural numbers and returns the result.
 def sum_of_naturals(n):
     sum = 0
     for i in range(1, n+1):
@@ -46,7 +46,7 @@ result = sum_of_naturals(n)
 print(f"The sum of the first {n} natural numbers is: {result}")
 
 
-#24 - This function asks for a number and then adds each digit until the result is made of only one digit and returns
+#4 - This function asks for a number and then adds each digit until the result is made of only one digit and returns
 # the result.
 def sumdigto1():
     x = int(input("Write here the number you would like to find out the sum of it's digits:   "))
@@ -67,7 +67,7 @@ def sumdigto1():
 
 print(f"The sum of all digits reduced to one digit is:  {sumdigto1()}")
 
-#25 - This function asks for a chosen amount of the first natural numbers, finds their squares and then adds them up and
+#5 - This function asks for a chosen amount of the first natural numbers, finds their squares and then adds them up and
 # returns the result.
 def sum_of_squares(n):
     sum = 0
